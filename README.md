@@ -1,5 +1,5 @@
-## Cadastro-de-pessoa
-Este programa foi escrito inteiramente utilizando a linguagem C. Seu objetivo é criar um cadastro de pessoa usando Structure.
+## Cadastro de pessoa
+Este programa foi escrito inteiramente utilizando a linguagem C. Seu objetivo é criar um cadastro de pessoa utilizando Structure.
 O cadastro (Structure) contém: Nome, CPF, Email e Telefone.  
 
 Apresenta um menu funcinal com as seguintes opções: inserir usuario, buscar usuario por CPF, buscar usuario por email, excluir usuario, atualizar email do usuario e sair.
