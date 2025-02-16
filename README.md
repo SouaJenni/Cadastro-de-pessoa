@@ -1,14 +1,11 @@
-# Cadastro-de-pessoa
-1- Escreva um programa que cadastre uma pessoa usando Structure
-   - O cadastro (Structure) deve conter: Nome, CPF, Email e Telefone. Todos são vetores de char
-   - No final do programa, imprima os dados cadastrados 
-2- Modifique o programa anterior:
-   - Adicione uma função de validação de CPF, confira como fazer no link: https://www.macoratti.net/alg_cpf.htm
-https://www.4devs.com.br/gerador_de_cpf
-https://www.youtube.com/watch?v=_ApTnRHYnyw
-   - Adicione uma função para validação de email. Para o email, deve permitir qualquer numero de caracteres iniciais, seguido por @, seguido por qualquer numero de caracteres, seguido por ".com"
-3- Modifique o programa anterior para utilizar um vetor de usuarios, permitindo cadastrar mais de um ao mesmo tempo
-4- Adicione uma validação para que o CPF nem o email seja repetidos entre os usuarios do vetor
-5- Adicione um menu com as opções "Inserir usuario, Buscar usuario por CPF, buscar usuario por email, Excluir usuario, atualizar email do usuario e sair"
-6- Mude a alocação do vetor de usuarios para alocação dinamica, utilizando pra isso o Malloc e ponteiro.
-7- Ao iniciar o programa pergunte quantos usuarios deverão ser alocados, então faça a alocação de memória conforme o tamanho solicitado pelo usuário
+## Cadastro-de-pessoa
+Este programa foi escrito inteiramente utilizando a linguagem C. Seu objetivo é criar um cadastro de pessoa usando Structure.
+O cadastro (Structure) contém: Nome, CPF, Email e Telefone.  
+
+Apresenta um menu funcinal com as seguintes opções: inserir usuario, buscar usuario por CPF, buscar usuario por email, excluir usuario, atualizar email do usuario e sair.
+
+Para este cadastro foram feitas validações para o CPF, segindo corretamente o cálculo e validação dos números e sendo único, apenas um por usuário cadastrado. E também uma validação de email, permitindo qualquer número de caracteres iniciais, seguido por @, seguido por qualquer número de caracteres, seguido por ".com".
+
+Por utilizar um vetor de usuários, este programa consegue cadastrar mais de um usuário ao mesmo tempo. Além de perguntar ao iniciar quantos usuários serão cadastrados e alocar memória conforme o valor indicado. 
+
+Por fim, imprime todos os usuários cadastrados.
